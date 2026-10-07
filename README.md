@@ -1,23 +1,66 @@
 # Browser History Management System Using Stack
 
-## Introduction
-A browser history management system stores visited web pages using a stack.
+## Overview
 
-## Objectives
-- To manage browser history using stack.
-- To implement stack using linked list.
-- To perform push and pop operations.
-
-## Working
-When a new page is visited, it is added to the stack. The back operation removes the current page from the stack.
+This project is a simple Browser History Management System developed in C++ using a Stack implemented with a Linked List. It allows users to visit new web pages, go back to the previous page, and display the browser history.
 
 ## Features
-- Visit new page
-- Go back to previous page
+
+- Visit a new web page
+- Go back to the previous page
 - Display browser history
+- Stack implementation using Linked List
+- Dynamic memory allocation
+- Menu-driven interface
 
-## Future Scope
-The system can be improved by adding forward navigation and a graphical user interface.
+## Data Structure Used
 
-## Conclusion
-This project demonstrates the use of stack and linked list for managing browser history.
+### Stack Using Linked List
+
+Each node contains:
+
+- Web Page URL
+- Pointer to the next node
+
+The Stack follows the **LIFO (Last In First Out)** principle.
+
+## Technologies Used
+
+- C++
+- Stack
+- Linked List
+- Dynamic Memory Allocation
+- Console-Based Programming
+
+## Operations
+
+### Visit Page
+
+Adds a new web page to the browser history.
+
+### Go Back
+
+Removes the current page and returns to the previous page.
+
+### Display History
+
+Displays the stored browser history.
+
+### Exit
+
+Terminates the application.
+
+## Learning Outcomes
+
+- Understanding Stack implementation using Linked List
+- Understanding LIFO principle
+- Dynamic memory allocation using pointers
+- Performing push, pop, and display operations
+- Developing menu-driven applications in C++
+
+## Sample Menu
+
+1. Visit Page
+2. Go Back
+3. Display History
+4. Exit
