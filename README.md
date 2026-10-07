@@ -1,0 +1,1 @@
+This project develops a browser history management system using a stack implemented with a linked list. It allows users to visit web pages, go back to previous pages, and manage browsing history efficiently using stack operations.
