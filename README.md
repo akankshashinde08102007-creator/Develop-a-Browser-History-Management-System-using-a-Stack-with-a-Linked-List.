@@ -86,8 +86,11 @@ struct Node {
 Sample Input
 
 1
+
 www.google.com
+
 1
+
 www.youtube.com
 
 3
