@@ -89,6 +89,7 @@ Sample Input
 www.google.com
 1
 www.youtube.com
+
 3
 
 2
